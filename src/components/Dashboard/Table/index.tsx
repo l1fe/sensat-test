@@ -38,7 +38,8 @@ export const Table: React.FC<TableProps> = ({
         {
           Header: 'ID',
           accessor: 'id',
-          disableGroupBy: false,
+          aggregate: 'count',
+          Aggregated: ({ value }) => `${value} IDs`,
         },
         {
           Header: 'Box ID',
@@ -49,6 +50,7 @@ export const Table: React.FC<TableProps> = ({
         {
           accessor: 'sensor_type',
           Header: 'Type of the sensor',
+          disableGroupBy: false,
           disableSortBy: false,
           disableFilters: false,
           aggregate: listUniqueValues,
@@ -103,7 +105,8 @@ export const Table: React.FC<TableProps> = ({
         },
         {
           Header: ({ columns }) =>
-            columns.length > 0 && columns[0].isGrouped
+            columns.length > 0 &&
+            columns.filter((column) => column.isGrouped).length > 0
               ? 'Median reading value'
               : 'Reading value',
           accessor: 'reading',

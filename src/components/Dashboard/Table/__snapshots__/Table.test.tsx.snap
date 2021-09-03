@@ -580,6 +580,30 @@ exports[`renders correctly - when error 1`] = `
             "width": "150px",
           }
         }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
       >
         <span
           onClick={[Function]}
@@ -593,30 +617,6 @@ exports[`renders correctly - when error 1`] = `
           Aggregate👊
         </span>
       </div>
-      <div
-        className="sc-hKgJUU cwZCSQ"
-        colSpan={1}
-        role="columnheader"
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "width": "150px",
-          }
-        }
-      />
-      <div
-        className="sc-hKgJUU cwZCSQ"
-        colSpan={1}
-        role="columnheader"
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "width": "150px",
-          }
-        }
-      />
       <div
         className="sc-hKgJUU cwZCSQ"
         colSpan={1}
@@ -1309,6 +1309,30 @@ exports[`renders correctly - when loading 1`] = `
             "width": "150px",
           }
         }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
       >
         <span
           onClick={[Function]}
@@ -1322,30 +1346,6 @@ exports[`renders correctly - when loading 1`] = `
           Aggregate👊
         </span>
       </div>
-      <div
-        className="sc-hKgJUU cwZCSQ"
-        colSpan={1}
-        role="columnheader"
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "width": "150px",
-          }
-        }
-      />
-      <div
-        className="sc-hKgJUU cwZCSQ"
-        colSpan={1}
-        role="columnheader"
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "width": "150px",
-          }
-        }
-      />
       <div
         className="sc-hKgJUU cwZCSQ"
         colSpan={1}
@@ -2037,6 +2037,30 @@ exports[`renders correctly - with empty sensor readings 1`] = `
             "width": "150px",
           }
         }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
       >
         <span
           onClick={[Function]}
@@ -2050,30 +2074,6 @@ exports[`renders correctly - with empty sensor readings 1`] = `
           Aggregate👊
         </span>
       </div>
-      <div
-        className="sc-hKgJUU cwZCSQ"
-        colSpan={1}
-        role="columnheader"
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "width": "150px",
-          }
-        }
-      />
-      <div
-        className="sc-hKgJUU cwZCSQ"
-        colSpan={1}
-        role="columnheader"
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "width": "150px",
-          }
-        }
-      />
       <div
         className="sc-hKgJUU cwZCSQ"
         colSpan={1}
@@ -2765,6 +2765,30 @@ exports[`renders correctly - with some sensor readings 1`] = `
             "width": "150px",
           }
         }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
       >
         <span
           onClick={[Function]}
@@ -2778,30 +2802,6 @@ exports[`renders correctly - with some sensor readings 1`] = `
           Aggregate👊
         </span>
       </div>
-      <div
-        className="sc-hKgJUU cwZCSQ"
-        colSpan={1}
-        role="columnheader"
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "width": "150px",
-          }
-        }
-      />
-      <div
-        className="sc-hKgJUU cwZCSQ"
-        colSpan={1}
-        role="columnheader"
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "width": "150px",
-          }
-        }
-      />
       <div
         className="sc-hKgJUU cwZCSQ"
         colSpan={1}
