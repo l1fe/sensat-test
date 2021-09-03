@@ -1,39 +1,51 @@
 import React, { useMemo } from 'react';
-import { useTable, useBlockLayout, useSortBy, Column } from 'react-table';
+import {
+  useTable,
+  useBlockLayout,
+  useSortBy,
+  Column,
+  useFilters,
+} from 'react-table';
 import { FixedSizeList } from 'react-window';
 
 import { SensorReading } from '../../../types';
 import { TContainer, THeader, TBody, Tr, Td, Th } from './styles';
-
+import DefaultColumnFilter from './DefaultColumnFilter';
 export interface TableProps {
-  sensorReadings: Array<object>;
+  sensorReadings: Array<SensorReading | {}>;
+  loading: boolean;
+  error?: string;
 }
 
 export const TABLE_HEIGHT_PX = 600;
 export const ROW_HEIGHT_PX = 66;
 
-export const Table: React.FC<TableProps> = ({ sensorReadings }) => {
+export const Table: React.FC<TableProps> = ({
+  sensorReadings,
+  loading,
+  error,
+}) => {
   const columns = useMemo(
     () =>
       [
         {
           Header: 'ID',
           accessor: 'id',
-          disableSortBy: true,
         },
         {
           Header: 'Box ID',
           accessor: 'box_id',
-          disableSortBy: true,
         },
         {
-          Header: 'Type of the sensor',
           accessor: 'sensor_type',
+          Header: 'Type of the sensor',
+          disableSortBy: false,
+          disableFilters: false,
         },
         {
           Header: 'Type of data',
           accessor: 'name',
-          disableSortBy: true,
+          disableFilters: false,
         },
         {
           Header: 'Range',
@@ -41,12 +53,10 @@ export const Table: React.FC<TableProps> = ({ sensorReadings }) => {
             {
               Header: 'Lower bound',
               accessor: 'range_l',
-              disableSortBy: true,
             },
             {
               Header: 'Upper bound',
               accessor: 'range_u',
-              disableSortBy: true,
             },
           ],
         },
@@ -56,24 +66,22 @@ export const Table: React.FC<TableProps> = ({ sensorReadings }) => {
             {
               Header: 'Latitude',
               accessor: 'latitude',
-              disableSortBy: true,
             },
             {
               Header: 'Longitude',
               accessor: 'longitude',
-              disableSortBy: true,
             },
           ],
         },
         {
           Header: 'Measurement unit',
           accessor: 'unit',
-          disableSortBy: true,
         },
         {
           Header: 'Timestamp',
           accessor: 'reading_ts',
           sortType: 'datetime',
+          disableSortBy: false,
           Cell: (props) => {
             const formatted = props.value.toUTCString();
             return <span>{formatted}</span>;
@@ -83,8 +91,11 @@ export const Table: React.FC<TableProps> = ({ sensorReadings }) => {
     []
   );
 
-  const defaultColumn = React.useMemo(
+  const defaultColumn: Partial<Column<SensorReading | {}>> = useMemo(
     () => ({
+      Filter: DefaultColumnFilter,
+      disableFilters: true,
+      disableSortBy: true,
       width: 150,
     }),
     []
@@ -103,6 +114,7 @@ export const Table: React.FC<TableProps> = ({ sensorReadings }) => {
       data: sensorReadings,
       defaultColumn,
     },
+    useFilters,
     useSortBy,
     useBlockLayout
   );
@@ -132,7 +144,10 @@ export const Table: React.FC<TableProps> = ({ sensorReadings }) => {
         {headerGroups.map((headerGroup) => (
           <Tr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map((column) => (
-              <Th {...column.getHeaderProps(column.getSortByToggleProps())}>
+              <Th
+                {...column.getHeaderProps(column.getSortByToggleProps())}
+                canSort={column.canSort}
+              >
                 {column.render('Header')}
                 <span>
                   {column.isSorted ? (column.isSortedDesc ? ' 🔽' : ' 🔼') : ''}
@@ -141,17 +156,33 @@ export const Table: React.FC<TableProps> = ({ sensorReadings }) => {
             ))}
           </Tr>
         ))}
+        {headerGroups.length > 0 && (
+          <Tr {...headerGroups[1].getHeaderGroupProps()}>
+            {headerGroups[1].headers.map((column) => (
+              <Th {...column.getHeaderProps(column.getSortByToggleProps())}>
+                {column.canFilter ? column.render('Filter') : null}
+              </Th>
+            ))}
+          </Tr>
+        )}
       </THeader>
 
       <TBody {...getTableBodyProps()}>
-        <FixedSizeList
-          height={TABLE_HEIGHT_PX}
-          itemCount={rows.length}
-          itemSize={ROW_HEIGHT_PX}
-          width={totalColumnsWidth}
-        >
-          {RenderRow}
-        </FixedSizeList>
+        {rows.length > 0 ? (
+          <FixedSizeList
+            height={TABLE_HEIGHT_PX}
+            itemCount={rows.length}
+            itemSize={ROW_HEIGHT_PX}
+            width={totalColumnsWidth}
+          >
+            {RenderRow}
+          </FixedSizeList>
+        ) : (
+          <Tr empty>
+            {loading ? 'Loading' : 'No data was found'}
+            {error && `[Got an error: ${error}]`}
+          </Tr>
+        )}
       </TBody>
     </TContainer>
   );
