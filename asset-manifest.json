@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/sensat-test/static/js/main.fb529b95.chunk.js",
-    "main.js.map": "/sensat-test/static/js/main.fb529b95.chunk.js.map",
+    "main.js": "/sensat-test/static/js/main.90e38dd6.chunk.js",
+    "main.js.map": "/sensat-test/static/js/main.90e38dd6.chunk.js.map",
     "runtime-main.js": "/sensat-test/static/js/runtime-main.b35d1dd6.js",
     "runtime-main.js.map": "/sensat-test/static/js/runtime-main.b35d1dd6.js.map",
     "static/js/2.2ae8289b.chunk.js": "/sensat-test/static/js/2.2ae8289b.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.b35d1dd6.js",
     "static/js/2.2ae8289b.chunk.js",
-    "static/js/main.fb529b95.chunk.js"
+    "static/js/main.90e38dd6.chunk.js"
   ]
 }
