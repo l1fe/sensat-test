@@ -123,8 +123,7 @@ export const Table: React.FC<TableProps> = ({
             const formatted = date.toUTCString();
             return <span>{formatted}</span>;
           },
-          aggregate: 'uniqueCount',
-          Aggregated: ({ value }) => `${value} unique entries`,
+          Aggregated: () => '',
         },
       ] as Column<SensorReading | {}>[],
     []
