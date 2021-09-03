@@ -1,10 +1,14 @@
 import React, { useMemo } from 'react';
+import memoize from 'fast-memoize';
 import {
   useTable,
   useBlockLayout,
   useSortBy,
   Column,
   useFilters,
+  useGroupBy,
+  useExpanded,
+  Row,
 } from 'react-table';
 import { FixedSizeList } from 'react-window';
 
@@ -16,6 +20,34 @@ export interface TableProps {
   loading: boolean;
   error?: string;
 }
+
+export const compareDates = memoize((a: string, b: string): number => {
+  if (!a) {
+    return -1;
+  }
+
+  if (!b) {
+    return 1;
+  }
+
+  const aDate = new Date(`${a}Z`);
+  const bDate = new Date(`${a}Z`);
+
+  const aTime = aDate.getTime();
+  const bTime = bDate.getTime();
+
+  return aTime === bTime ? 0 : aTime > bTime ? 1 : -1;
+});
+
+export const datetimeCompare = (
+  rowA: Row,
+  rowB: Row,
+  columnId: string
+): number => {
+  let [a, b] = [rowA.values[columnId], rowB.values[columnId]];
+
+  return compareDates(a, b);
+};
 
 export const TABLE_HEIGHT_PX = 600;
 export const ROW_HEIGHT_PX = 66;
@@ -41,6 +73,7 @@ export const Table: React.FC<TableProps> = ({
           Header: 'Type of the sensor',
           disableSortBy: false,
           disableFilters: false,
+          disableGroupBy: false,
         },
         {
           Header: 'Type of data',
@@ -80,10 +113,15 @@ export const Table: React.FC<TableProps> = ({
         {
           Header: 'Timestamp',
           accessor: 'reading_ts',
-          sortType: 'datetime',
+          sortType: datetimeCompare,
           disableSortBy: false,
           Cell: (props) => {
-            const formatted = props.value.toUTCString();
+            if (!props.value) {
+              return null;
+            }
+
+            const date = new Date(`${props.value}Z`);
+            const formatted = date.toUTCString();
             return <span>{formatted}</span>;
           },
         },
@@ -96,6 +134,7 @@ export const Table: React.FC<TableProps> = ({
       Filter: DefaultColumnFilter,
       disableFilters: true,
       disableSortBy: true,
+      disableGroupBy: true,
       width: 150,
     }),
     []
@@ -115,7 +154,9 @@ export const Table: React.FC<TableProps> = ({
       defaultColumn,
     },
     useFilters,
+    useGroupBy,
     useSortBy,
+    useExpanded,
     useBlockLayout
   );
 
@@ -130,7 +171,27 @@ export const Table: React.FC<TableProps> = ({
           })}
         >
           {row.cells.map((cell) => {
-            return <Td {...cell.getCellProps()}>{cell.render('Cell')}</Td>;
+            return (
+              <Td {...cell.getCellProps()}>
+                {' '}
+                {cell.isGrouped ? (
+                  // If it's a grouped cell, add an expander and row count
+                  <>
+                    <span {...row.getToggleRowExpandedProps()}>
+                      {row.isExpanded ? '👇' : '👉'}
+                    </span>{' '}
+                    {cell.render('Cell')} ({row.subRows.length})
+                  </>
+                ) : cell.isAggregated ? (
+                  // If the cell is aggregated, use the Aggregated
+                  // renderer for cell
+                  cell.render('Aggregated')
+                ) : cell.isPlaceholder ? null : ( // For cells with repeated values, render null
+                  // Otherwise, just render the regular cell
+                  cell.render('Cell')
+                )}
+              </Td>
+            );
           })}
         </Tr>
       );
@@ -157,10 +218,24 @@ export const Table: React.FC<TableProps> = ({
           </Tr>
         ))}
         {headerGroups.length > 0 && (
-          <Tr {...headerGroups[1].getHeaderGroupProps()}>
+          <Tr {...headerGroups[1].getHeaderGroupProps()} key="Filtering">
             {headerGroups[1].headers.map((column) => (
-              <Th {...column.getHeaderProps(column.getSortByToggleProps())}>
+              <Th {...column.getHeaderProps()}>
                 {column.canFilter ? column.render('Filter') : null}
+              </Th>
+            ))}
+          </Tr>
+        )}
+
+        {headerGroups.length > 0 && (
+          <Tr {...headerGroups[1].getHeaderGroupProps()} key="Aggregation">
+            {headerGroups[1].headers.map((column) => (
+              <Th {...column.getHeaderProps()}>
+                {column.canGroupBy ? (
+                  <span {...column.getGroupByToggleProps()}>
+                    {column.isGrouped ? 'Exit aggregation🛑 ' : 'Aggregate👊'}
+                  </span>
+                ) : null}
               </Th>
             ))}
           </Tr>

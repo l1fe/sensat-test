@@ -7,8 +7,6 @@ const parseInput = (str: string): Array<SensorReading | {}> => {
     .map((str) => {
       try {
         const json: SensorReading = JSON.parse(str);
-        // Append Z in order to parse the date as UTC
-        json.reading_ts = new Date(`${json.reading_ts}Z`);
         return json;
       } catch (err) {
         return {};
