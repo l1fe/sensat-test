@@ -143,7 +143,10 @@ export const Table: React.FC<TableProps> = ({
           Aggregated: showAggregatedFromListUniqueValues,
         },
         {
-          Header: 'Actual value (Reading)',
+          Header: ({ columns }) =>
+            columns.length > 0 && columns[0].isGrouped
+              ? 'Median reading value'
+              : 'Reading value',
           accessor: 'reading',
           aggregate: 'median',
         },
