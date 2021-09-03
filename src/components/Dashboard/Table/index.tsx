@@ -52,6 +52,22 @@ export const datetimeCompare = (
 export const TABLE_HEIGHT_PX = 600;
 export const ROW_HEIGHT_PX = 66;
 
+export const listUniqueValues = memoize((values: string[]): string[] => {
+  const set = new Set();
+  for (const val of values) {
+    set.add(val);
+  }
+  const res = Array.from(set) as string[];
+
+  return res;
+});
+
+const showAggregatedFromListUniqueValues = ({
+  value,
+}: {
+  value: string[];
+}): string => (value.length > 1 ? JSON.stringify(value) : value[0]);
+
 export const Table: React.FC<TableProps> = ({
   sensorReadings,
   loading,
@@ -63,22 +79,28 @@ export const Table: React.FC<TableProps> = ({
         {
           Header: 'ID',
           accessor: 'id',
+          disableGroupBy: false,
         },
         {
           Header: 'Box ID',
           accessor: 'box_id',
+          aggregate: listUniqueValues,
+          Aggregated: showAggregatedFromListUniqueValues,
         },
         {
           accessor: 'sensor_type',
           Header: 'Type of the sensor',
           disableSortBy: false,
           disableFilters: false,
-          disableGroupBy: false,
+          aggregate: listUniqueValues,
+          Aggregated: showAggregatedFromListUniqueValues,
         },
         {
           Header: 'Type of data',
           accessor: 'name',
           disableFilters: false,
+          aggregate: listUniqueValues,
+          Aggregated: showAggregatedFromListUniqueValues,
         },
         {
           Header: 'Range',
@@ -86,10 +108,14 @@ export const Table: React.FC<TableProps> = ({
             {
               Header: 'Lower bound',
               accessor: 'range_l',
+              aggregate: listUniqueValues,
+              Aggregated: showAggregatedFromListUniqueValues,
             },
             {
               Header: 'Upper bound',
               accessor: 'range_u',
+              aggregate: listUniqueValues,
+              Aggregated: showAggregatedFromListUniqueValues,
             },
           ],
         },
@@ -99,16 +125,27 @@ export const Table: React.FC<TableProps> = ({
             {
               Header: 'Latitude',
               accessor: 'latitude',
+              aggregate: listUniqueValues,
+              Aggregated: showAggregatedFromListUniqueValues,
             },
             {
               Header: 'Longitude',
               accessor: 'longitude',
+              aggregate: listUniqueValues,
+              Aggregated: showAggregatedFromListUniqueValues,
             },
           ],
         },
         {
           Header: 'Measurement unit',
           accessor: 'unit',
+          aggregate: listUniqueValues,
+          Aggregated: showAggregatedFromListUniqueValues,
+        },
+        {
+          Header: 'Actual value (Reading)',
+          accessor: 'reading',
+          aggregate: 'median',
         },
         {
           Header: 'Timestamp',
@@ -124,6 +161,8 @@ export const Table: React.FC<TableProps> = ({
             const formatted = date.toUTCString();
             return <span>{formatted}</span>;
           },
+          aggregate: 'uniqueCount',
+          Aggregated: ({ value }) => `${value} unique entries`,
         },
       ] as Column<SensorReading | {}>[],
     []
