@@ -1,7 +1,8 @@
 import React, { useMemo } from 'react';
-import { useTable, useBlockLayout } from 'react-table';
+import { useTable, useBlockLayout, useSortBy, Column } from 'react-table';
 import { FixedSizeList } from 'react-window';
 
+import { SensorReading } from '../../../types';
 import { TContainer, THeader, TBody, Tr, Td, Th } from './styles';
 
 export interface TableProps {
@@ -13,58 +14,72 @@ export const ROW_HEIGHT_PX = 66;
 
 export const Table: React.FC<TableProps> = ({ sensorReadings }) => {
   const columns = useMemo(
-    () => [
-      {
-        Header: 'ID',
-        accessor: 'id',
-      },
-      {
-        Header: 'Box ID',
-        accessor: 'box_id',
-      },
-      {
-        Header: 'Type of the sensor',
-        accessor: 'sensor_type',
-      },
-      {
-        Header: 'Type of data',
-        accessor: 'name',
-      },
-      {
-        Header: 'Range',
-        columns: [
-          {
-            Header: 'Lower bound',
-            accessor: 'range_l',
+    () =>
+      [
+        {
+          Header: 'ID',
+          accessor: 'id',
+          disableSortBy: true,
+        },
+        {
+          Header: 'Box ID',
+          accessor: 'box_id',
+          disableSortBy: true,
+        },
+        {
+          Header: 'Type of the sensor',
+          accessor: 'sensor_type',
+        },
+        {
+          Header: 'Type of data',
+          accessor: 'name',
+          disableSortBy: true,
+        },
+        {
+          Header: 'Range',
+          columns: [
+            {
+              Header: 'Lower bound',
+              accessor: 'range_l',
+              disableSortBy: true,
+            },
+            {
+              Header: 'Upper bound',
+              accessor: 'range_u',
+              disableSortBy: true,
+            },
+          ],
+        },
+        {
+          Header: 'Geolocation',
+          columns: [
+            {
+              Header: 'Latitude',
+              accessor: 'latitude',
+              disableSortBy: true,
+            },
+            {
+              Header: 'Longitude',
+              accessor: 'longitude',
+              disableSortBy: true,
+            },
+          ],
+        },
+        {
+          Header: 'Measurement unit',
+          accessor: 'unit',
+          disableSortBy: true,
+        },
+        {
+          Header: 'Timestamp',
+          accessor: 'reading_ts',
+          sortType: 'datetime',
+          Cell: (props) => {
+            const formatted = props.value.toUTCString();
+            return <span>{formatted}</span>;
           },
-          {
-            Header: 'Upper bound',
-            accessor: 'range_u',
-          },
-        ],
-      },
-      {
-        Header: 'Geolocation',
-        columns: [
-          {
-            Header: 'Latitude',
-            accessor: 'latitude',
-          },
-          {
-            Header: 'Longitude',
-            accessor: 'longitude',
-          },
-        ],
-      },
-      {
-        Header: 'Measurement unit',
-        accessor: 'unit',
-      },
-      {
-        Header: 'Timestamp',
-        accessor: 'reading_ts',
-      },
-    ],
+        },
+      ] as Column<SensorReading | {}>[],
     []
   );
 
@@ -88,6 +103,7 @@ export const Table: React.FC<TableProps> = ({ sensorReadings }) => {
       data: sensorReadings,
       defaultColumn,
     },
+    useSortBy,
     useBlockLayout
   );
 
@@ -116,8 +132,11 @@ export const Table: React.FC<TableProps> = ({ sensorReadings }) => {
         {headerGroups.map((headerGroup) => (
           <Tr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map((column) => (
-              <Th {...column.getHeaderProps()} className="th">
+              <Th {...column.getHeaderProps(column.getSortByToggleProps())}>
                 {column.render('Header')}
+                <span>
+                  {column.isSorted ? (column.isSortedDesc ? ' 🔽' : ' 🔼') : ''}
+                </span>
               </Th>
             ))}
           </Tr>

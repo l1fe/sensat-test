@@ -12,6 +12,7 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     axios.get<string>(DATA_URL).then(({ data }) => {
+      // Offload the parsing of incoming data to the web worker
       parseWorker(data).then((res) => {
         setSensorsReadings(res);
       });
