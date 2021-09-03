@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAsyncDebounce } from 'react-table';
+import debounce from 'lodash.debounce';
 import { Container, Input } from './styles';
 
 const DefaultColumnFilter: React.FC<{ column: any }> = ({
@@ -8,7 +8,7 @@ const DefaultColumnFilter: React.FC<{ column: any }> = ({
   const [value, setValue] = useState(filterValue);
   const count = preFilteredRows.length;
 
-  const onChange = useAsyncDebounce((val: string | undefined) => {
+  const onChange = debounce((val: string | undefined) => {
     setFilter(val || undefined);
   }, 200);
 
