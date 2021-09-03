@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sensat-test/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/sensat-test/static/js/main.f59a1d29.chunk.js",
+    "main.js.map": "/sensat-test/static/js/main.f59a1d29.chunk.js.map",
+    "runtime-main.js": "/sensat-test/static/js/runtime-main.c2a0c281.js",
+    "runtime-main.js.map": "/sensat-test/static/js/runtime-main.c2a0c281.js.map",
+    "static/js/2.9d335300.chunk.js": "/sensat-test/static/js/2.9d335300.chunk.js",
+    "static/js/2.9d335300.chunk.js.map": "/sensat-test/static/js/2.9d335300.chunk.js.map",
+    "static/js/3.9ec19973.chunk.js": "/sensat-test/static/js/3.9ec19973.chunk.js",
+    "static/js/3.9ec19973.chunk.js.map": "/sensat-test/static/js/3.9ec19973.chunk.js.map",
+    "index.html": "/sensat-test/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/sensat-test/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.9d335300.chunk.js.LICENSE.txt": "/sensat-test/static/js/2.9d335300.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2a0c281.js",
+    "static/js/2.9d335300.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.f59a1d29.chunk.js"
+  ]
+}
