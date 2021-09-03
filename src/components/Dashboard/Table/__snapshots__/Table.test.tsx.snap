@@ -1,0 +1,3278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly - when error 1`] = `
+<div
+  className="sc-bdfBQB cGAeMp"
+  role="table"
+>
+  <div
+    className="sc-gsTEea clYvAH"
+  >
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={2}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "300px",
+          }
+        }
+      >
+        Range
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={2}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "300px",
+          }
+        }
+      >
+        Geolocation
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        ID
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Box ID
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU jjEruo"
+        colSpan={1}
+        onClick={[Function]}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+        title="Toggle SortBy"
+      >
+        Type of the sensor
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Type of data
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Lower bound
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Upper bound
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Latitude
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Longitude
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Measurement unit
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Reading value
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU jjEruo"
+        colSpan={1}
+        onClick={[Function]}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+        title="Toggle SortBy"
+      >
+        Timestamp
+        <span>
+          
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <div
+          className="sc-gKseQn gIdiOy"
+        >
+          <input
+            className="sc-iBPTik dHgQzY"
+            onChange={[Function]}
+            placeholder="Search 0 records..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <div
+          className="sc-gKseQn gIdiOy"
+        >
+          <input
+            className="sc-iBPTik dHgQzY"
+            onChange={[Function]}
+            placeholder="Search 0 records..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <span
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+          title="Toggle GroupBy"
+        >
+          Aggregate👊
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="sc-dlfnuX"
+    role="rowgroup"
+  >
+    <div
+      className="sc-jSgvzq cweLX"
+    >
+      No data was found
+      [Got an error: There is some mess going on]
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly - when loading 1`] = `
+<div
+  className="sc-bdfBQB cGAeMp"
+  role="table"
+>
+  <div
+    className="sc-gsTEea clYvAH"
+  >
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={2}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "300px",
+          }
+        }
+      >
+        Range
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={2}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "300px",
+          }
+        }
+      >
+        Geolocation
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        ID
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Box ID
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU jjEruo"
+        colSpan={1}
+        onClick={[Function]}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+        title="Toggle SortBy"
+      >
+        Type of the sensor
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Type of data
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Lower bound
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Upper bound
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Latitude
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Longitude
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Measurement unit
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Reading value
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU jjEruo"
+        colSpan={1}
+        onClick={[Function]}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+        title="Toggle SortBy"
+      >
+        Timestamp
+        <span>
+          
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <div
+          className="sc-gKseQn gIdiOy"
+        >
+          <input
+            className="sc-iBPTik dHgQzY"
+            onChange={[Function]}
+            placeholder="Search 0 records..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <div
+          className="sc-gKseQn gIdiOy"
+        >
+          <input
+            className="sc-iBPTik dHgQzY"
+            onChange={[Function]}
+            placeholder="Search 0 records..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <span
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+          title="Toggle GroupBy"
+        >
+          Aggregate👊
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="sc-dlfnuX"
+    role="rowgroup"
+  >
+    <div
+      className="sc-jSgvzq cweLX"
+    >
+      Loading
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly - with empty sensor readings 1`] = `
+<div
+  className="sc-bdfBQB cGAeMp"
+  role="table"
+>
+  <div
+    className="sc-gsTEea clYvAH"
+  >
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={2}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "300px",
+          }
+        }
+      >
+        Range
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={2}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "300px",
+          }
+        }
+      >
+        Geolocation
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        ID
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Box ID
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU jjEruo"
+        colSpan={1}
+        onClick={[Function]}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+        title="Toggle SortBy"
+      >
+        Type of the sensor
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Type of data
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Lower bound
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Upper bound
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Latitude
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Longitude
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Measurement unit
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Reading value
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU jjEruo"
+        colSpan={1}
+        onClick={[Function]}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+        title="Toggle SortBy"
+      >
+        Timestamp
+        <span>
+          
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <div
+          className="sc-gKseQn gIdiOy"
+        >
+          <input
+            className="sc-iBPTik dHgQzY"
+            onChange={[Function]}
+            placeholder="Search 0 records..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <div
+          className="sc-gKseQn gIdiOy"
+        >
+          <input
+            className="sc-iBPTik dHgQzY"
+            onChange={[Function]}
+            placeholder="Search 0 records..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <span
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+          title="Toggle GroupBy"
+        >
+          Aggregate👊
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="sc-dlfnuX"
+    role="rowgroup"
+  >
+    <div
+      className="sc-jSgvzq cweLX"
+    >
+      No data was found
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly - with some sensor readings 1`] = `
+<div
+  className="sc-bdfBQB cGAeMp"
+  role="table"
+>
+  <div
+    className="sc-gsTEea clYvAH"
+  >
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={2}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "300px",
+          }
+        }
+      >
+        Range
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={2}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "300px",
+          }
+        }
+      >
+        Geolocation
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+         
+        <span>
+          
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        ID
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Box ID
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU jjEruo"
+        colSpan={1}
+        onClick={[Function]}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+        title="Toggle SortBy"
+      >
+        Type of the sensor
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Type of data
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Lower bound
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Upper bound
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Latitude
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Longitude
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Measurement unit
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": undefined,
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        Reading value
+        <span>
+          
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU jjEruo"
+        colSpan={1}
+        onClick={[Function]}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+        title="Toggle SortBy"
+      >
+        Timestamp
+        <span>
+          
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <div
+          className="sc-gKseQn gIdiOy"
+        >
+          <input
+            className="sc-iBPTik dHgQzY"
+            onChange={[Function]}
+            placeholder="Search 2 records..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <div
+          className="sc-gKseQn gIdiOy"
+        >
+          <input
+            className="sc-iBPTik dHgQzY"
+            onChange={[Function]}
+            placeholder="Search 2 records..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="sc-jSgvzq hjzrge"
+      role="row"
+      style={
+        Object {
+          "display": "flex",
+          "width": "1650px",
+        }
+      }
+    >
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      >
+        <span
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+          title="Toggle GroupBy"
+        >
+          Aggregate👊
+        </span>
+      </div>
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-hKgJUU cwZCSQ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "width": "150px",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="sc-dlfnuX"
+    role="rowgroup"
+  >
+    <div
+      onScroll={[Function]}
+      style={
+        Object {
+          "WebkitOverflowScrolling": "touch",
+          "direction": "ltr",
+          "height": 600,
+          "overflow": "auto",
+          "position": "relative",
+          "width": 1650,
+          "willChange": "transform",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "height": 132,
+            "pointerEvents": undefined,
+            "width": "100%",
+          }
+        }
+      >
+        <div
+          className="sc-jSgvzq hjzrge"
+          role="row"
+          style={
+            Object {
+              "display": "flex",
+              "height": 66,
+              "left": 0,
+              "position": "absolute",
+              "right": undefined,
+              "top": 0,
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            Box-A1-O3
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            Box-A1
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            O3
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            Ozone
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            0
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            1000
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            51.51885
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            -0.06507
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            ppm
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            672
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            <span>
+              Tue, 10 Sep 2019 00:00:00 GMT
+            </span>
+          </div>
+        </div>
+        <div
+          className="sc-jSgvzq hjzrge"
+          role="row"
+          style={
+            Object {
+              "display": "flex",
+              "height": 66,
+              "left": 0,
+              "position": "absolute",
+              "right": undefined,
+              "top": 66,
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            Box-A1-NO2
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            Box-A1
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            NO2
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            Nitrogen dioxide
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            0
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            1000
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            51.51885
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            -0.06507
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            ppm
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            193
+          </div>
+          <div
+            className="sc-eCstlR gGpxpV"
+            role="cell"
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "width": "150px",
+              }
+            }
+          >
+             
+            <span>
+              Tue, 10 Sep 2019 00:00:00 GMT
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

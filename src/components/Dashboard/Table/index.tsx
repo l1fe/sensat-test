@@ -1,5 +1,4 @@
 import React, { useMemo } from 'react';
-import memoize from 'fast-memoize';
 import {
   useTable,
   useBlockLayout,
@@ -8,12 +7,16 @@ import {
   useFilters,
   useGroupBy,
   useExpanded,
-  Row,
 } from 'react-table';
 import { FixedSizeList } from 'react-window';
 
 import { SensorReading } from '../../../types';
 import { TContainer, THeader, TBody, Tr, Td, Th } from './styles';
+import {
+  datetimeCompare,
+  listUniqueValues,
+  showAggregatedFromListUniqueValues,
+} from './utils';
 import DefaultColumnFilter from './DefaultColumnFilter';
 export interface TableProps {
   sensorReadings: Array<SensorReading | {}>;
@@ -21,52 +24,8 @@ export interface TableProps {
   error?: string;
 }
 
-export const compareDates = memoize((a: string, b: string): number => {
-  if (!a) {
-    return -1;
-  }
-
-  if (!b) {
-    return 1;
-  }
-
-  const aDate = new Date(`${a}Z`);
-  const bDate = new Date(`${a}Z`);
-
-  const aTime = aDate.getTime();
-  const bTime = bDate.getTime();
-
-  return aTime === bTime ? 0 : aTime > bTime ? 1 : -1;
-});
-
-export const datetimeCompare = (
-  rowA: Row,
-  rowB: Row,
-  columnId: string
-): number => {
-  let [a, b] = [rowA.values[columnId], rowB.values[columnId]];
-
-  return compareDates(a, b);
-};
-
 export const TABLE_HEIGHT_PX = 600;
 export const ROW_HEIGHT_PX = 66;
-
-export const listUniqueValues = memoize((values: string[]): string[] => {
-  const set = new Set();
-  for (const val of values) {
-    set.add(val);
-  }
-  const res = Array.from(set) as string[];
-
-  return res;
-});
-
-const showAggregatedFromListUniqueValues = ({
-  value,
-}: {
-  value: string[];
-}): string => (value.length > 1 ? JSON.stringify(value) : value[0]);
 
 export const Table: React.FC<TableProps> = ({
   sensorReadings,

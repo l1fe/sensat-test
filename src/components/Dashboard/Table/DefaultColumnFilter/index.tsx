@@ -2,7 +2,15 @@ import React, { useState } from 'react';
 import debounce from 'lodash.debounce';
 import { Container, Input } from './styles';
 
-const DefaultColumnFilter: React.FC<{ column: any }> = ({
+export interface DefaultColumnFilterProps {
+  column: {
+    filterValue: string;
+    preFilteredRows: object[];
+    setFilter: (val: string | undefined) => void;
+  };
+}
+
+const DefaultColumnFilter: React.FC<DefaultColumnFilterProps> = ({
   column: { filterValue, preFilteredRows, setFilter },
 }) => {
   const [value, setValue] = useState(filterValue);
