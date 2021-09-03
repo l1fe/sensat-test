@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should parse input 1`] = `
+Array [
+  Object {
+    "box_id": "Box-A1",
+    "id": "Box-A1-O3",
+    "latitude": 51.51885,
+    "longitude": -0.06507,
+    "name": "Ozone",
+    "range_l": 0,
+    "range_u": 1000,
+    "reading": 672,
+    "reading_ts": "2019-09-10T00:00:00",
+    "sensor_type": "O3",
+    "unit": "ppm",
+  },
+  Object {
+    "box_id": "Box-A1",
+    "id": "Box-A1-NO2",
+    "latitude": 51.51885,
+    "longitude": -0.06507,
+    "name": "Nitrogen dioxide",
+    "range_l": 0,
+    "range_u": 1000,
+    "reading": 193,
+    "reading_ts": "2019-09-10T00:00:00",
+    "sensor_type": "NO2",
+    "unit": "ppm",
+  },
+  Object {},
+]
+`;
